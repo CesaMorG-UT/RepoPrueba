@@ -14,9 +14,14 @@ git push origin master -> sube los archivos a Github
 
 git pull -> baja cambios.
 
-git
+==========
 
-======================================================================================
+git branch nombreRama -> crear ramas sin nombre de la rama te dice en que rama estas
+git show-branch -> ver ramas existentes
+git checkout nombreRama -> se nueve a ramas se pone -b para crear rama y moverte
+git merge experimental -m 'Esto es un merge con mensaje' -> Permite fusionarla con la rama "experimental
+
+========================================================================================
 
 git init
 git add README.md
@@ -25,7 +30,7 @@ git branch -M main
 git remote add origin https://github.com/CesaMorG-UT/RepoPrueba.git
 git push -u origin main
 
-======================================================================================
+========================================================================================
 
 git remote add origin https://github.com/CesaMorG-UT/RepoPrueba.git
 git branch -M main
