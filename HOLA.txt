@@ -1,6 +1,8 @@
 git init -> inicializará la carpeta/repositorio que tienes en tu computador local.
 
-git add -> seguimiento de los cambios en la carpeta desde el último commit. Como es esta la primera vez que haces commit se añadirán todos los elementos.
+git add . o git add -A -> seguimiento de los cambios en la carpeta desde el último commit. Como es esta la primera vez que haces commit se añadirán todos los elementos.
+
+git status -> ver el estado de git
 
 git commit -m "Mensaje de commit" -> preparará los cambios en la carpeta local hacia github
 
