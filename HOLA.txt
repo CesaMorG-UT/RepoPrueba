@@ -1,0 +1,28 @@
+git init -> inicializará la carpeta/repositorio que tienes en tu computador local.
+
+git add -> seguimiento de los cambios en la carpeta desde el último commit. Como es esta la primera vez que haces commit se añadirán todos los elementos.
+
+git commit -m "Mensaje de commit" -> preparará los cambios en la carpeta local hacia github
+
+git remote add origin https://github.com/nombreDeUsuario/repositorio.git -> Remplazar nombreDeUsuario y repositorio. Esto conectará la carpeta local al repo de Github
+
+git remote -v -> Garantizar que el contenido del repo de Github y la carpeta local sean los mismos
+
+git push origin master -> sube los archivos a Github
+
+git pull -> baja cambios.
+
+======================================================================================
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CesaMorG-UT/RepoPrueba.git
+git push -u origin main
+
+======================================================================================
+
+git remote add origin https://github.com/CesaMorG-UT/RepoPrueba.git
+git branch -M main
+git push -u origin main
