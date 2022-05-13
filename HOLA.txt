@@ -14,11 +14,7 @@ git push origin master -> sube los archivos a Github
 
 git pull -> baja cambios.
 
-<<<<<<< HEAD
-=========================
-=======
-========================= cambio experimental
->>>>>>> experimental
+========================= cambio experimental / otro experimento
 
 git branch nombreRama -> crear ramas. sin nombreRama te dice en que rama estas
 git show-branch -> ver ramas existentes
